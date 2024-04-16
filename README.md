@@ -1,45 +1,19 @@
-# Aplikasi Toko Ikan Dengan PHP
-Aplikasi Toko Ikan Dengan PHP adalah langkah awal untuk membuat projek kecil-kecilan.
+# Sistem Informasi Penjualan Toko Ikan
+Sistem ini ditujukkan untuk memudahkan melakukan penctatan transaski yang terjadi khususnya dalam aktivitas perdagangan ikan
 
-# Penulis Utama
-- [Febri Hidayan](https://github.com/febrihidayan)
-  - Situs https://febrihidayan.github.io
+# Entity Relationship Diagram
+![image (2)](https://github.com/AditiyaRizqi/SistemInformasi-Penjualan-Toko-Ikan/assets/151179136/8d431fa6-08fb-4c23-8f1a-f3c9a504d787)
 
-## Cara Masuk Ke Aplikasi
-Buat nama basis data dengan nama `tokoikan` lalu lakukan import di PHPMyAdmin dengan berkas `tokoikan.sql` sebagaimana pada direktori utama projek ini.
+# Database
+![Screenshot (43)](https://github.com/AditiyaRizqi/SistemInformasi-Penjualan-Toko-Ikan/assets/151179136/ec08352f-a855-4978-9760-b77b7fc92908)
 
-Gunakan pengguna ini untuk masuk dan berdasarkan peran masing-masing. Gunakan kata sandi `pass` untuk semua pengguna.
+# Tampilan
+## Halaman Login
+![Screenshot (44)](https://github.com/AditiyaRizqi/SistemInformasi-Penjualan-Toko-Ikan/assets/151179136/2919a8c4-268f-40db-b483-fb8e52ca825d)
+## Halaman Utama
+![Screenshot (45)](https://github.com/AditiyaRizqi/SistemInformasi-Penjualan-Toko-Ikan/assets/151179136/5f2486cc-26ef-46d6-9e32-09edcde3e94d)
+## Halaman Transaksi
+![Screenshot (47)](https://github.com/AditiyaRizqi/SistemInformasi-Penjualan-Toko-Ikan/assets/151179136/49977be9-4e15-4c1d-ad70-816c6531bbb9)
+## Halaman Pelanggan
+![Screenshot (46)](https://github.com/AditiyaRizqi/SistemInformasi-Penjualan-Toko-Ikan/assets/151179136/d4a2faed-1cc5-4fe7-90aa-bb29507c2abf)
 
-- admin (Admin)
-- waiter (Waiter)
-- owner (Owner)
-- febrihidayan (Customer)
-
->Catatan: Harus terhubung ke internet agar skrip CDN Bulma dapat dimuat.
-
-## Laporan
-Berikut ini adalah fitur filter yang mana akan mencari data berdasarkan percarian baik dari teks dan tanggal.
-
-### Apa Yang Di Cari?
-Pada kolom pencarian teks akan mencari nama pengguna dan nama barang, sedangkan untuk tanggal akan mencari tanggal berdasarkan tanggal transaksi. Hal ini cukup bagus untuk diterapkan karena apabila transaksi pada tanggal 6 misalnya yang terdapat 40 transaksi, maka bisa dicari lagi secara speksifik dengan mencari nama pengguna atau barang.
-
-### Bagaimana Menggunakannya?
-Berikut ini adalah cara menggunakan filter berdasarkan data nyata pada gambar dibawah ini:
-
-![gambar](gambar/Semua%20Laporan.png)
-
-#### **Menggunakan filter tanggal**
-
-![gambar](gambar/Semua%20Laporan%20-%20Tanggal.png)
-
-#### **Menggunakan filter pencarian teks**
-
-![gambar](gambar/Semua%20Laporan%20-%20Teks.png)
-
-#### **Menggunakan filter semuanya**
-
-![gambar](gambar/Semua%20Laporan%20-%20Keduanya.png)
-
-## Referensi
-- [Aplikasi Toko Buah Dengan PHP (Source Code)](https://github.com/sekolahprogram/aplikasi-toko-buah-dengan-php)
-- [Aplikasi Toko Buah Dengan PHP (Tutorial)](https://sekolahprogram.com/kelas/aplikasi-toko-buah-dengan-php)
